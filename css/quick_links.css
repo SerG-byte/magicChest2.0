@@ -1,0 +1,100 @@
+.quick-links-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.flip-container {
+    margin: 10px;
+}
+     
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+     
+.flip-container, .front, .back {
+    min-width: 300px;
+    min-height: 400px;
+}
+.flipper {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front, .back {
+    padding-top: 30px;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    border: solid 10px #FFF3F3;
+    background: rgba(255, 243, 243, 0.2);
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.25), 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    transition: transform 1s linear;
+}
+.front:before, .back:before {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color: #FFF3F3;
+    border-radius: 20px;
+    z-index:-1;
+}
+.l-card .front:before,.l-card .back:before{
+    
+    border: 5px solid #F1F08A;
+}
+.c-card .front:before,.c-card .back:before{
+    border: 5px solid #EC9454;
+}
+.r-card .front:before,.r-card .back:before{
+    border: 5px solid #8E334C;
+}
+.front {
+    z-index: 2;
+    
+}
+.back {
+    transform: rotateY(180deg);
+    
+}
+
+.quick-links-content h3,p{
+    font-family: "Balsamiq Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.quick-links-content h3{
+    margin-bottom: 20px;
+}
+.quick-links-content p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.quick-links-content input[type="button"]{
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: white;
+    color:     #EC9454;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px; 
+    transition: all 0.4s ease;
+}
+.quick-links-content input[type="button"]:hover{
+    color: white;
+    background-color: #EC9454;
+}

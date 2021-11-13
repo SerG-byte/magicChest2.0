@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.header{
+    max-width: 1440px;
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.header__title{
+    width: 318px;
+    text-align: center;
+    white-space: nowrap;
+}
+.header__title span{
+    font-family: Neuton, Arial, sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #2AA5A0;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    background-image: linear-gradient(90deg, #55A05C, #2D5637);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header__research{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 0px 30px;
+}
+#research__main{
+    width: 100%;    
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.research__main__button{
+    /**/
+    
+    position: absolute;
+    width: 64px;
+    height: 40px;
+    right: 0;
+    background: url(../img/icon/search.svg) rgba(255, 255, 255, 0.3) no-repeat center;
+    image-rendering: -webkit-optimize-contrast;
+    background-size: 35%;
+    border-radius: 20px;
+}
+
+.header__button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 250px;
+}
+.header__button .icon{
+    padding: 5px;
+    width: 37px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.header__button .text__icon{
+    font-family: "Balsamiq Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.header__orders .icon{
+    width: 60px;
+    background: url(../img/icon/order.svg) no-repeat center;
+    image-rendering: -webkit-optimize-contrast;
+}
+.header__singIN .icon{
+    width: 60px;
+    background: url(../img/icon/login.svg) no-repeat center;
+    image-rendering: -webkit-optimize-contrast;
+}
+.header__basket .icon{
+    width: 60px;
+    background: url(../img/icon/basket.svg) no-repeat center;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+
+.header__bottom{
+    text-align: center;
+}
+.header__bottom a{
+    -moz-appearance: button;
+    -ms-appearance: button;
+    -o-appearance: button;
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    font-family: "Balsamiq Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    padding: 0px 20px;
+    letter-spacing: 0.07em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width:767px){
+
+}

@@ -1,0 +1,47 @@
+.main__container{
+    min-height: 100vh;
+    background: linear-gradient(to right,#EC9454, #8E334C);
+    
+}
+.container{
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+}
+.main__content{
+    max-width: 1440px;
+    margin: auto;
+    
+}
+.content__card{
+    min-height: 200px;
+    border: 10px solid white;
+    background: rgba(255, 243, 243, 0.2);
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.25), 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index:0;
+}
+.content__card:before 
+{
+    content:"";
+    display:block;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    border: 5px solid #C6CD78;;
+    background-color: #FFF3F3;
+    border-radius: 20px;
+    z-index:-1;
+}
+
+.icon__magic__chest{
+    background: url(../img/icon/Ellipse.svg) no-repeat center;
+    image-rendering: -webkit-optimize-contrast;
+    background-position: right bottom;
+    margin: 25px;
+    height: 400px;
+}
