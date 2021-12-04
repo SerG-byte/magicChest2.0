@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/header_popup.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/quick_links.css">
+    <link rel="stylesheet" href="css/cards_links.css">
 
     <title>Magic-Chest</title>
 </head>
@@ -23,61 +23,94 @@
     <?php require "header.php " ?>
     <div class="container">
         <div class="main__content">
-            <div class="content__card">
-                <div class="icon__magic__chest"></div>
+            <div class="content__card banner__card">
+                <div class="banner"></div>
             </div>
             <div class="content__card">
+                <div class="cards-links-content">
+                    <div class="r">
+                        <div class="flip-container l-card" >
+                            <div class="flipper">
+                                <div class="front">
+                                    <h3>Альбомы</h3>
+                                    <p>сборники игр на липучках для деток всех возрастов, развивающие самые разные уменая и навыки</p>
+                                </div>
 
-            <div class="quick-links-content">
-                <div class="flip-container l-card" >
-                    <div class="flipper">
-                        <div class="front">
-                            <h3>Альбомы</h3>
-                            <p>сборники игр на липучках для деток всех возрастов, развивающие самые разные уменая и навыки</p>
+                                <div class="back">
+                                    <h3>Альбомы</h3>
+                                    <p>сборники игр на липучках для деток всех возрастов, развивающие самые разные уменая и навыки</p>
+                                    <input type="button" value="Заказать">
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="back">
-                            <h3>Альбомы</h3>
-                            <p>сборники игр на липучках для деток всех возрастов, развивающие самые разные уменая и навыки</p>
-                            <input type="button" value="Заказать">
+                        <div class="flip-container c-card" >
+                            <div class="flipper">
+                                <div class="front">
+                                    <h3>Прописи</h3>
+                                    <p>подготовка руки к письму от первых шагов до подготовки к школе</p>
+                                </div>
+
+                                <div class="back">
+                                    <h3>Прописи</h3>
+                                    <p>подготовка руки к письму от первых шагов до подготовки к школе</p>
+                                    <input type="button" value="Заказать">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <div class="flip-container r-card" >
+                            <div class="flipper">
+                                <div class="front">
+                                    <h3>Карточки</h3>
+                                    <p>подготовка руки к письму от первых шагов до подготовки к школе</p>
+                                </div>
+                                <div class="back">
+                                    <h3>Карточки</h3>
+                                    <p>подготовка руки к письму от первых шагов до подготовки к школе</p>
+                                    <input type="button" value="Заказать">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-container r-card" >
+                            <div class="flipper">
+                                <div class="front">
+                                    <h3>Боксы</h3>
+                                    <p>большие наборы развивашек отлично подойдут для подарка малышу</p>
+                                </div>
+
+                                <div class="back">
+                                    <h3>Боксы</h3>
+                                    <p>большие наборы развивашек отлично подойдут для подарка малышу</p>
+                                    <input type="button" value="Заказать">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="flip-container c-card" >
-                    <div class="flipper">
-                        <div class="front">
-                            <h3>Прописи</h3>
-                            <p>подготовка руки к письму от первых шагов до подготовки к школе</p>
-                        </div>
-
-                        <div class="back">
-                            <h3>Прописи</h3>
-                            <p>подготовка руки к письму от первых шагов до подготовки к школе</p>
-                            <input type="button" value="Заказать">
-                        </div>
-                    </div>
                 </div>
-
-                <div class="flip-container r-card" >
-                    <div class="flipper">
-                        <div class="front">
-                            <h3>Карточки</h3>
-                            <p>подготовка руки к письму от первых шагов до подготовки к школе</p>
-                        </div>
-
-                        <div class="back">
-                            <h3>Карточки</h3>
-                            <p>подготовка руки к письму от первых шагов до подготовки к школе</p>
-                            <input type="button" value="Заказать">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            </div>
             <div class="content__card">
+                <div class="info__magic__chest">
+                    <div class="text__magic__chest">
+                        <div class="info__title">
+                            Развивающие пособия “Magic chest
+                        </div>
+                        <div class="info__text">
+                            Игры “Magic chest” помогут вам с пользой занять малыша и воспитать в нем усидчивость. Игры развивают мелкую моторику рук, речь, внимание, память, логическое и ассоциативное мышление.
+                            <br><br>
+                            Красочные, увлекательные и разнообразные игры надолго заинтересуют и увлекут ребенка. Благодаря простой и доступной подаче материала, в игровой форме, малыш легко сможет понять сложные тем.
+                            <br><br>
+                            Материалы игр отпечатаны на фотобумаге полноцветной печатью, заламинированы с двух сторон, не боятся воды и не рвутся, на них даже можно рисовать фломастерами. Все детали имеют скругленные края, что делает их безопасными для детей.
+                            <br><br>
+                            Сегодня в помощь родителям продается множество пособий и игрушек для развития, но особенную ценность представляет игра, сделанная своими руками. В такие игры вкладывается душа и любовь к своему делу, поэтому они получаются такими красочными и дружелюбными, что очень важно для детей.
+                        </div>
+                    </div>
+                    <div class="info__logo"></div>
+                </div>
                 
+            </div>
+            <div class="content__card">
             </div>
         </div>
     </div>

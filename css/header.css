@@ -11,17 +11,14 @@
     padding-bottom: 20px;
 }
 .header__title{
-    width: 318px;
     text-align: center;
+    vertical-align: middle;
     white-space: nowrap;
 }
-.header__title span{
+.header__title .title__name{
     font-family: Neuton, Arial, sans-serif;
-    font-size: 62px;
-    font-style: normal;
+    font-size: 3.5em;
     font-weight: bold;
-    background-color: #2AA5A0;
-    line-height: 100%;
     letter-spacing: -0.02em;
     background-image: linear-gradient(90deg, #55A05C, #2D5637);
     -webkit-background-clip: text;
@@ -42,8 +39,6 @@
     padding: 10px 20px;
 }
 .research__main__button{
-    /**/
-    
     position: absolute;
     width: 64px;
     height: 40px;
@@ -56,9 +51,10 @@
 
 .header__button{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    min-width: 250px;
+}
+.header__button > div{
+    padding: 0px 10px;
 }
 .header__button .icon{
     padding: 5px;
@@ -76,21 +72,30 @@
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
 }
+.header__search{
+    display: none;
+}
+
+.header__search .icon{
+    background: url(../img/icon/search__icon.svg) no-repeat center;
+    image-rendering: -webkit-optimize-contrast;
+}
 .header__orders .icon{
-    width: 60px;
     background: url(../img/icon/order.svg) no-repeat center;
     image-rendering: -webkit-optimize-contrast;
 }
 .header__singIN .icon{
-    width: 60px;
     background: url(../img/icon/login.svg) no-repeat center;
     image-rendering: -webkit-optimize-contrast;
 }
 .header__basket .icon{
-    width: 60px;
     background: url(../img/icon/basket.svg) no-repeat center;
     image-rendering: -webkit-optimize-contrast;
 }
+.header__search .icon,.header__orders .icon,.header__singIN .icon,.header__basket .icon{
+    width: 3em;
+}
+
 
 
 .header__bottom{
@@ -112,7 +117,64 @@
     letter-spacing: 0.07em;
     color: rgba(255, 255, 255, 0.8);
 }
+.header_burger{
+    width: 3em;
+    height: 100%;
+    float: left;
+}
+.header_burger{
+    display: none;
+}
+.header_burger .icon{
+    width: 3em;
+    height: 100%;
+    background: url(../img/icon/main_burger.png) no-repeat center;
+    image-rendering: -webkit-optimize-contrast;
+}
 
 @media (max-width:767px){
-
+    .header__title{
+        margin: 0px;
+        margin-right: 3em;
+        
+    }
+    .header_burger{
+        display: block;
+    }
+    .header__bottom{
+        display: none;
+    }
+    .text__icon{
+        display: none;
+    }
+    .header__search{
+        display: block;
+    }
+    .header__research{
+        display: none;
+    }
+    .header__title .title__name{
+        font-size: 2em;
+        width: 2em;
+    }
+    .header_burger .icon{
+        background-size: 70%;
+        background-position: top;
+    }
+    .header__top{
+        padding: 0px;
+    }
+    .header__search .icon,.header__orders .icon,.header__singIN .icon,.header__basket .icon{
+        width: 2em;
+        background-size: 60%;
+        margin: 0px;
+        
+    }
+    .header__button > div{
+        padding: 0px 2px;
+    }
+    .header{
+        padding: 10px 10px 0px 10px;
+    }
+    
 }

@@ -38,10 +38,57 @@
     z-index:-1;
 }
 
-.icon__magic__chest{
+.banner__card{
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.banner{
+    min-height: 400px;
+    border-radius: 15px;
+    background: url(../img/banner/standart_banner.svg) no-repeat center;
+    image-rendering: -webkit-optimize-contrast;
+    
+}
+
+
+.info__magic__chest{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.info__magic__chest .text__magic__chest{
+    border: 1px solid red;
+    width: 70%;
+    padding: 30px 50px 30px 90px;
+}
+
+.text__magic__chest .info__title{
+    border: 1px solid violet;
+    font-family: "Balsamiq Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    margin-bottom: 20px;
+}
+.text__magic__chest .info__text{
+    border: 1px solid silver;
+    font-family: "Balsamiq Sans";
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 140%;
+
+    letter-spacing: -0.02em;
+}
+
+.info__magic__chest .info__logo{
+    border: 1px solid blue;
+    min-width: 30%;
     background: url(../img/icon/Ellipse.svg) no-repeat center;
     image-rendering: -webkit-optimize-contrast;
-    background-position: right bottom;
-    margin: 25px;
-    height: 400px;
 }
+

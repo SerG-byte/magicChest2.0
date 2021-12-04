@@ -1,13 +1,25 @@
 <div class="header">
     <div class="header__top">
+        
         <div class="header__title">
-            <span>Magic Chest</span>
+            <div class="header_burger">
+                <div class="icon"></div>
+            </div>
+            <span class="title__name"> 
+                Magic Chest
+            </span>
         </div>
+        
         <div class="header__research">
             <input type="text" name="" id="research__main">
             <input type="button" value="" class="research__main__button">
         </div>
         <div class="header__button">
+            <div class="header__search">
+                <div class="icon">
+
+                </div>
+            </div>
             <div class="header__orders">
                 <div class="icon">
 
