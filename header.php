@@ -47,10 +47,10 @@
         </div>
     </div>
     <div class="header__bottom">
-        <a href="">Главная</a>
-        <a href="">Католог</a>
-        <a href="">Акции</a>
-        <a href="">Оплата и доставка</a>
-        <a href="">О нас</a>
+        <a href="./index.php">Главная</a>
+        <a href="./katalog.php">Католог</a>
+        <a href="./discount.php">Акции</a>
+        <a href="./deliveryAndPayment.php">Оплата и доставка</a>
+        <a href="./aboutUs.php">О нас</a>
     </div>
 </div>
