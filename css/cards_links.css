@@ -13,10 +13,12 @@
 }
 .flip-container, .front, .back {
     border-radius: 10px;
+    min-height: 300px;
 }
 .flipper {
     transition: 1s;
     transform-style: preserve-3d;
+    
 }
 .front{
     position: absolute;
@@ -70,7 +72,7 @@
 }
 
 .cards-links-content h3,p{
-    font-family: "Balsamiq Sans";
+    font-family: Neucha;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -111,9 +113,6 @@
     }
     .flip-container {
         margin: 30px 20px;
-    }
-    .flipper{
-        height: 300px;
     }
 }
 @media (max-width:767px){

@@ -110,7 +110,32 @@
                 </div>
                 
             </div>
-            <div class="content__card">
+            <div class="content__card project-tasks">
+                <div class="title__tasks">
+                    Задачи развивающих пособий “Magic chest”
+                </div>
+                <div class="tasks">
+                    <div class="task">
+                        <img src="./img/tasks/one.svg">
+                        <div class="task__text">Способствовать формированию целостной картины мира и расширять кругозор</div>
+                    </div>
+                    <div class="task">
+                        <img src="./img/tasks/two.svg">
+                        <div class="task__text">Развивать сенсорные способы понимания математический свойств и отношений</div>
+                    </div>
+                    <div class="task">
+                        <img src="./img/tasks/three.svg">
+                        <div class="task__text">Способствовать расширению и обогащению словаря, развитию связанной речи</div>
+                    </div>
+                    <div class="task">
+                        <img src="./img/tasks/four.svg">
+                        <div class="task__text">Развивать зрительное, слуховое, тактильно-двигательное восприятие, воображение, пространственное мышление</div>
+                    </div>
+                    <div class="task">
+                        <img src="./img/tasks/five.svg">
+                        <div class="task__text">Совершенствовать координацию руки и глаза, продолжать развивать мелкую моторику рук</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

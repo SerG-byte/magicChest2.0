@@ -76,7 +76,7 @@
 }
 .text__magic__chest .info__text{
     border: 1px solid silver;
-    font-family: "Balsamiq Sans";
+    font-family: Neucha;
     font-style: normal;
     font-weight: lighter;
     font-size: 18px;
@@ -92,3 +92,56 @@
     image-rendering: -webkit-optimize-contrast;
 }
 
+.project-tasks{
+    padding: 15px;
+}
+.title__tasks{
+    font-family: "Balsamiq Sans";
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    padding: 25px 0px;
+}
+.tasks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.task{
+    border: 3px dashed #C6CD78;
+    border-radius: 40px;
+    width: 400px;
+    min-height: 90px;
+    margin: 20px 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.task img{
+    width: 70px;
+    min-height: 70px;
+}
+.task .task__text{
+    display: inline-block;
+    width: 80%;
+    min-height: 70px;
+
+    font-family: Neucha;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+@media (max-width:1460px){
+    .task{
+        width: 300px;
+    }
+}
+@media (max-width:800px){
+    .task{
+        width: 100%;
+    }
+}
