@@ -123,10 +123,7 @@
     .r{
         display: block;
     }
-    .front{
-        width: 100%;
-    }
-    .flip-container{
+    .front,.flip-container{
         width: 100%;
     }
     .flip-container {
