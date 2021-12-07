@@ -13,6 +13,7 @@
     
 
     <link rel="stylesheet" href="css/katalog.css">
+    <link rel="stylesheet" href="css/katalogSelect.css">
     <title>Magic-Chest</title>
 </head>
 
@@ -26,9 +27,12 @@
             <div class="katalog__title">
                 Католог
                 <div>?? товара</div>
+
+                <div class="katalog__search__burgher">Меню поиска</div>
             </div>
             <div class="katalog__content">
                 <div class="katalog__search">
+                    <div class="title__katalog__search">Филтры <span class="exit__katalog__search">Выход</span></div>
                     <?php require "./katalog/katalogSearch.php" ?>
                 </div>
                 <div class="katalog__goods">
@@ -41,6 +45,7 @@
                     </div>
                     <div class="goods">
                         <?php require "./katalog/katalogGoods.php"?>
+                        
                     </div>
                 </div>
             </div>
@@ -49,5 +54,7 @@
     <?php require "footer.php " ?>
 </div>
 </body>
-<script src="js/katalogSort.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/katalogJS/katalogSort.js"></script>
+<script src="js/katalogJS/katalogSelect.js"></script>
 </html>

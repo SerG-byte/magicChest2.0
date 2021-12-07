@@ -17,16 +17,15 @@
 .katalog__content{
     border: 5px solid brown;
     display: flex;
-    height: 400px;
+    min-height: 400px;
 }
 
 .katalog__search{
     border: 5px solid blue;
-    width: 20%;
+    min-width: 20%;
 }
 .katalog__goods{
     border: 5px solid yellowgreen;
-    width: 80%;
 }
 .sort{
     border: 5px solid darkcyan;
@@ -53,6 +52,78 @@
 }
 .goods{
     border: 5px solid slateblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product__content{
+    width: 300px;
+    min-height: 400px;
+    padding: 15px;
+    margin: 10px auto;
+}
+.product__content:hover{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.product__img{
+    width: 100%;
+    
+}
+.title__product{
+    font-family: "Balsamiq Sans";
+    font-size: 18px;
+}
+.description__product{
+    font-family: Neucha;
+    font-size: 14px;
+    color: #A2A2A2;
+    
+}
+.price{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.price__product{
+    display: none;    
+}
+.discount__price__product{
+    margin-top: auto;
+    align-self: flex-start;
+    font-family: "Balsamiq Sans";
+    font-size: 22px;
+    font-weight: bolder;
+}
+.percent__discount{
+    display: none;
+}
+.price__product.active{
+    display: block;
+    margin-top: auto;
+    align-self: flex-start;
+    font-family: "Balsamiq Sans";
+    font-size: 18px;
+    text-decoration-line: line-through;
+    color: #919191;
+}
+.discount__price__product.active{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.percent__discount.active{
+    display: inline-block;
+    margin-left: 15px;
+    color: red;
+}
+.product__content button{
+    width: 100%;
+    height: 50px;
+    background: #EC9454;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: "Balsamiq Sans";
+    font-size: 24px;
 }
 
 
