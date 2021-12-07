@@ -105,9 +105,13 @@
 }
 .r{
     display: flex;
+    width: 50%;
 }
 
 @media (max-width:1024px){
+    .r{
+        width: 100%;
+    }
     .cards-links-content{
         display: block;
     }
@@ -118,6 +122,9 @@
 @media (max-width:767px){
     .r{
         display: block;
+    }
+    .front{
+        width: 100%;
     }
     .flip-container{
         width: 100%;
